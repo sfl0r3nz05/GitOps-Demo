@@ -17,15 +17,17 @@
 ## Repository structure:
 
 ```bash
+|_README.md
 |_/documentation
 |_/source-code
 |_/docker-build-shipwright-kaniko
 |_/docker-build-kaniko
 ```
 
-   - `/source-code`: contains the source code to be used in the other folders
-   - `/docker-build-shipwright-kaniko`: contains the .yaml files to send a container to a public registry using shipwright and kaniko
-   - `/docker-build-kaniko`: contains the .yaml file to send a container to a public registry using kaniko 
+   - `/documentation`: contains *.md files with project information.
+   - `/source-code`: contains the source code to be used in the other folders.
+   - `/docker-build-shipwright-kaniko`: contains the .yaml files to send a container to a public registry using shipwright and kaniko.
+   - `/docker-build-kaniko`: contains the .yaml file to send a container to a public registry using kaniko.
 
 ## Building a Container Using Shipwright and kaniko in Kubernetes
 
