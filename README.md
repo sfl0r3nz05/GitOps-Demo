@@ -16,10 +16,10 @@
 
 ## Repository structure:
 
-    ```console
-    _ /source-code
-    _ /docker-build-shipwright-kaniko
-    _ /docker-build-kaniko
+    ```bash
+    |_ /source-code
+    |_ /docker-build-shipwright-kaniko
+    |_ /docker-build-kaniko
     ```
 
    - `/source-code`: contains the source code to be used in the other folders
