@@ -41,3 +41,9 @@
    > **Pre-requisites:** A deployed cluster. E.g.: Minikube.
 
   1. [Follow these steps to build a container using kaniko.](./documentation/docker-build-kaniko.md)
+
+## Deploy a Service using kuztomize
+
+   > **Pre-requisites:** A deployed cluster. E.g.: Minikube.
+
+  1. [Follow these steps to deploy a service using kuztomize.](./documentation/kuztomize-deployment.md)
