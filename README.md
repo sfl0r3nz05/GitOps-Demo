@@ -24,19 +24,20 @@
 |_/docker-build-kaniko
 ```
 
-   - `/documentation`: contains *.md files with project information.
-   - `/source-code`: contains the source code to be used in the other folders.
-   - `/docker-build-shipwright-kaniko`: contains the .yaml files to send a container to a public registry using shipwright and kaniko.
-   - `/docker-build-kaniko`: contains the .yaml file to send a container to a public registry using kaniko.
+- `/documentation`: contains *.md files with project information.
+- `/source-code`: contains the source code to be used in the other folders.
+- `/docker-build-shipwright-kaniko`: contains the .yaml files to send a container to a public registry using shipwright and kaniko.
+- `/docker-build-kaniko`: contains the .yaml file to send a container to a public registry using kaniko.
 
 ## Building a Container Using Shipwright and kaniko in Kubernetes
 
    > **Pre-requisites:** A deployed cluster. E.g.: Minikube.
 
    1. [Prepare the cluster to support Shipwright and select Kaniko as build strategy](./documentation/shipwright-installation.md)
+   2. [Follow these steps to build a container using kaniko as Shipwright build strategy.](./documentation/docker-build-shipwright-kaniko.md)
 
 ## Building a Container using kaniko
 
    > **Pre-requisites:** A deployed cluster. E.g.: Minikube.
 
-   - [Follow these steps to build a container using kaniko.](./documentation/docker-build-kaniko.md)
+  1. [Follow these steps to build a container using kaniko.](./documentation/docker-build-kaniko.md)
