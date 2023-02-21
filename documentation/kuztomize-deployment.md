@@ -40,4 +40,4 @@
 
     NAME                                     DESIRED   CURRENT   READY   AGE
     replicaset.apps/pacman-kikd-6958b44cb6   1         1         1       17s
-    ```  
+    ```
