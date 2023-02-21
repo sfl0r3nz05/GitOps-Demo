@@ -1,7 +1,7 @@
 apiVersion: shipwright.io/v1alpha1
 kind: BuildRun
 metadata:
-  generateName: kaniko-nodejs-buildrun-
+  generateName: kaniko-buildrun-
 spec:
   buildRef:
-    name: kaniko-nodejs-build
+    name: kaniko-build

@@ -33,6 +33,8 @@
 
    > **Pre-requisites:** A deployed cluster. E.g.: Minikube.
 
+   1. [Prepare the cluster to support Shipwright and select Kaniko as build strategy](./documentation/shipwright-installation.md)
+
 ## Building a Container using kaniko
 
    > **Pre-requisites:** A deployed cluster. E.g.: Minikube.
