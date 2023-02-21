@@ -7,8 +7,9 @@ spec:
   - name: kaniko
     image: gcr.io/kaniko-project/executor:latest
     args: 
-    - "--dockerfile=source-code/Dockerfile"
     - "--context=git://github.com/sfl0r3nz05/gitops-demo.git"
+    - "--context-sub-path=/source-code"
+    - "--dockerfile=Dockerfile"
     - "--destination=sflorenz05/kaniko-demo-image:latest"
     volumeMounts:
       - name: kaniko-secret

@@ -12,7 +12,7 @@
 
 ## Requirements
 
-1. [Install a demo cluster based on Minikube](./documentation/minikube.md)
+1. [Install a demo cluster based on Minikube is a requierements for all tests](./documentation/minikube.md)
 
 ## Repository structure:
 
@@ -24,4 +24,10 @@
 
 ## Building a Container Using Shipwright and kaniko in Kubernetes
 
+   > **Pre-requisites:** A deployed cluster. E.g.: Minikube.
+
 ## Building a Container using kaniko
+
+   > **Pre-requisites:** A deployed cluster. E.g.: Minikube.
+
+   - [Follow these steps to build a container using kaniko.](./documentation/docker-build-kaniko.md)
