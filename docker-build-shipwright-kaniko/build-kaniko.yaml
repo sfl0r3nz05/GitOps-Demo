@@ -1,0 +1,15 @@
+apiVersion: shipwright.io/v1alpha1
+kind: Build
+metadata:
+  name: kaniko-nodejs-build
+spec:
+  source:
+    url: https://github.com/sfl0r3nz05/gitops-demo
+    contextDir: source-code
+  strategy:
+    name: kaniko
+    kind: ClusterBuildStrategy
+  output:
+    image: sflorenz05/sample-nodejs:latest
+    credentials:
+      name: regcred
